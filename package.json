@@ -1,0 +1,22 @@
+{
+  "name": "action_db_monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Svelte studios",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sesv2": "^3.296.0",
+    "aws-elasticsearch-client": "^2.0.0",
+    "aws-sdk": "^2.1340.0",
+    "dotenv": "^16.0.3",
+    "elasticsearch": "^16.7.3"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
